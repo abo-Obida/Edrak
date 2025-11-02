@@ -1,12 +1,20 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Edraak Educational Platform
+مشروع لمنصة تعليمية بسيطة مصممة لإدارة الطلاب وعلاماتهم، باستخدام MERN Stack.
+فكرة المشروع
+المنصة تتيح للموظفين إضافة الطلاب وإدارة بياناتهم وعلاماتهم، بينما يستطيع الطلاب تسجيل الدخول لمتابعة علاماتهم وتقدمهم الدراسي بطريقة سهلة وسلسة.
+التقنيات المستخدمة
+Frontend: React, Redux, Tailwind CSS
+Backend: Node.js, Express.js
+Database: MongoDB
+Authentication: JWT
+طريقة التشغيل
+Backend
+ادخل إلى مجلد المشروع الخلفي: cd backend
+ثبت الحزم المطلوبة: npm install
+شغل السيرفر: npm run dev
+تأكد من إعداد ملف .env مع بيانات JWT وMongoDB قبل التشغيل
+Frontend
+ادخل إلى مجلد المشروع الأمامي: cd frontend
+ثبت الحزم المطلوبة: npm install
+شغل التطبيق: npm start
+بعدها يمكنك الوصول للتطبيق عبر المتصفح على العنوان الافتراضي http://localhost:3000
